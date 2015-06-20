@@ -1,0 +1,79 @@
+body {
+	/*font-family: sans-serif; */
+	color: #444444;
+	font-family: 'Slabo 27px', serif;
+}
+header {
+	text-align: center;
+	background: #B831D4;
+	color: green;
+	background:url(images/background.jpg);
+	background-size: cover;
+}
+header img {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+a {
+	color: #38A88F;
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 42px;
+}
+img {
+	border: 2px solid black;
+}
+#about {
+	background: #FFCA59;
+}
+
+.links h2 {
+	font-family: sans-serif;
+	color: #FF572B;
+}
+
+.padded {
+	padding: 50px 100px;
+}
+
+.contact {
+	text-align: center;
+	color: #FFF;
+	background: url(images/dark_embroidery.png);
+}
+.contact h2 {
+	color : #FFF;
+}
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	border:none;
+}
+.contact img:hover {
+	opacity: 0.5;
+}
+
+ul.websites{
+	padding: 0;
+}
+
+ul.websites li {
+	list-style: none;
+	display: inline-block;
+}
+
+.websites a {
+	background: #38A88F;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+}
+.websites a:hover {
+	background: #666;
+}
